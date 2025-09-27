@@ -1,9 +1,9 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-07c8acf3fa6b923fa" # replace with your SG ID
-ZONE_ID="Z0948150OFPSYTNVYZOY" # replace with your ID
-DOMAIN_NAME="daws86s.fun"
+SG_ID="sg-08e024dc106ea61d2" # replace with your Security Group ID in AWS
+ZONE_ID="Z06471452CJDEMPWBOZV4" # replace with your ID hosted Zone ID in Route53
+DOMAIN_NAME="chinnakutti.fun"
 
 for instance in $@ # mongodb redis mysql
 do
